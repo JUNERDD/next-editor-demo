@@ -1,4 +1,4 @@
-import { cn } from '@/app/lib/utils'
+import { cn } from '@/lib/utils'
 import { ElProps } from '@/types'
 import { cva, VariantProps } from 'class-variance-authority'
 import { memo } from 'react'
