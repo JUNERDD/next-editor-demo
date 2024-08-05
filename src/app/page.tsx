@@ -54,7 +54,7 @@ export default function Home() {
    */
   const handleTest = useCallback(() => {
     const timer = setTimeout(() => {
-      console.log('我是原来的定时器')
+      console.log('我是原来的定时器, setTimeout:', setTimeout)
 
       clearTimeout(timer)
     })
